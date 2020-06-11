@@ -1,15 +1,27 @@
-# Binaries for programs and plugins
+# node modules
+node_modules
+
+# MacOS desktop services store
+.DS_Store
+
+# Log files
+*.log
+
+# private files
+TODOs.md
+_dev_
+
+# Editors
+.vscode
+.idea
+
+# VuePress temp directory
+.temp
+
+# Docs dist directory
+dist
+web
+
+# Win
+*.bat
 *.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-
-# Test binary, built with `go test -c`
-*.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
-
-# Dependency directories (remove the comment below to include it)
-# vendor/
